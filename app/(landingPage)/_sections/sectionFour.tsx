@@ -4,11 +4,11 @@ import React from "react";
 
 const SectionFour = () => {
   return (
-    <section className="max-w-[1440px] px-16 mx-auto my-32">
-      <h2 className="font-meshed-display font-bold text-6xl mx-auto w-fit">
+    <section className="max-w-[1440px] px-4 mx-auto my-32">
+      <h2 className="font-meshed-display font-bold md:text-6xl text-3xl mx-auto w-fit">
         Our Services
       </h2>
-      <div className="flex flex-row gap-20 mt-24">
+      <div className="flex md:flex-row flex-col gap-20 mt-24">
         <div className="flex-1">
           <img
             className="w-full h-full object-cover"
@@ -17,7 +17,7 @@ const SectionFour = () => {
           />
         </div>
         <div className="flex-1 my-auto">
-          <h2 className="font-meshed-display font-bold text-5xl mb-3">
+          <h2 className="font-meshed-display font-bold md:text-5xl text-3xl mb-3">
             Catering Services
           </h2>
           <p className="mb-10">
@@ -37,7 +37,7 @@ const SectionFour = () => {
             Note: Please order at least 24hours before the expected delivery
             date.
           </p>
-          <Button className="mt-10 h-fit bg-transparent py-3 px-6 dark:text-white text-black border border-black  dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black">
+          <Button className="mt-10 h-fit w-full md:w-fit bg-transparent py-3 px-6 dark:text-white text-black border border-black  dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black">
             Order Now <ArrowRight />
           </Button>
         </div>
