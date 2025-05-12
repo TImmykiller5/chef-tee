@@ -5,16 +5,16 @@ import React from "react";
 
 const SectionEight = () => {
   return (
-    <section className="bg-[#1A1A1A] my-40 py-20 px-20">
+    <section className="bg-[#1A1A1A] lg:my-40  py-20 px-5 lg:px-20">
       <h2 className="font-meshed-display text-center max-w-3xl font-bold text-5xl mb-16 w-fit mx-auto">
         Exceptional Catering & Unforgettable Food Experiences
       </h2>
-      <div className="flex gap-6 ">
-        <div className="flex-1 h-[772px] w-full p-8 rounded-md bg-[#333333] overflow-hidden relative">
-          <h4 className="font-meshed-display font-bold text-4xl mg-2">
+      <div className="flex flex-col lg:flex-row  h-full gap-6 ">
+        <div className="lg:flex-1 h-[772px]   w-full p-8 rounded-md bg-[#333333] overflow-hidden relative">
+          <h4 className="font-meshed-display font-bold lg:text-4xl text-2xl mg-2">
             Catering Services
           </h4>
-          <span className="text-lg block">
+          <span className="lg:text-lg text-sm block">
             From intimate gatherings to grand celebrations, we bring
             restaurant-quality flavors to your event. Whether it’s a corporate
             luncheon, wedding, birthday, or private dinner, our expert chefs
@@ -40,11 +40,11 @@ const SectionEight = () => {
             className="w-[312px] h-[376px] object-cover absolute -bottom-16  left-10 border-[#D7D7D7] border rounded-3xl rotate-[-5.82deg]"
           />
         </div>
-        <div className="flex-1 h-[772px] w-full p-8 rounded-md bg-[#333333] overflow-hidden relative">
-          <h4 className="font-meshed-display font-bold text-4xl mg-2">
+        <div className="lg:flex-1 h-[772px] w-full p-8 rounded-md bg-[#333333] overflow-hidden relative">
+          <h4 className="font-meshed-display font-bold lg:text-4xl text-2xl mb-2">
             Food Events
           </h4>
-          <span className="text-lg block">
+          <span className="lg:text-lg text-sm block">
             We don’t just serve food—we create immersive culinary experiences.
             From exclusive pop-up dinners to themed tasting nights, our food
             events are crafted for those who appreciate bold flavors and

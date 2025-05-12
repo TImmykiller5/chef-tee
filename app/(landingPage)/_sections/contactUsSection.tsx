@@ -36,11 +36,11 @@ const ContactUsSection = () => {
     console.log(data);
   };
   return (
-    <section className="my-40 py-20 px-20">
-      <div className="flex ">
+    <section className="lg:my-40 my-96 py-20 lg:px-20 px-5">
+      <div className="flex flex-col-reverse lg:flex-row   ">
         <div
           style={{ boxShadow: "0px 3px 23px 2px rgba(51, 51, 51, 0.1)" }}
-          className="flex-1 bg-white rounded-xl p-10"
+          className="flex-1 bg-white rounded-xl lg:p-10 p-5 pt-20 lg:pt-0"
         >
           <h3 className="font-meshed-display mb-6 font-bold text-5xl text-black mb-">
             Talk To us
@@ -158,7 +158,7 @@ const ContactUsSection = () => {
             width={733}
             height={523}
             objectFit="cover"
-            className="w-[733px] h-[523px] object-cover absolute top-1/2 left-1/2 translate-x-[-55%] overflow-visible -translate-y-1/2 rounded-3xl "
+            className="w-[733px]  md:h-[523px] object-cover absolute top-1/2 left-1/2 lg:translate-x-[-55%] translate-x-[-50%] overflow-visible -translate-y-[90%] lg:-translate-y-1/2 rounded-3xl "
             src="/contactUsSection/image1.jpg"
             alt="image"
           />

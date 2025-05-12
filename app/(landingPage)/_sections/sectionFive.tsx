@@ -4,8 +4,8 @@ import React from "react";
 
 const SectionFive = () => {
   return (
-    <section className="max-w-[1440px] px-16 mx-auto my-32 pt-32">
-      <div className="flex flex-row gap-20 mt-24">
+    <section className="md:max-w-[1440px] w-full px-4 mx-auto my-32 pt-32">
+      <div className="flex md:flex-row flex-col gap-20 mt-24">
         <div className="flex-1 my-auto">
           <h2 className="font-meshed-display font-bold text-5xl mb-3">
             Food Events
@@ -27,7 +27,7 @@ const SectionFive = () => {
             Note: Please order at least 24hours before the expected delivery
             date.
           </p>
-          <Button className="mt-10 h-fit bg-transparent py-3 px-6 dark:text-white text-black border border-black  dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black">
+          <Button className="mt-10 h-fit md:w-fit w-full bg-transparent py-3 px-6 dark:text-white text-black border border-black  dark:border-white hover:bg-black hover:text-white dark:hover:bg-white dark:hover:text-black">
             Vuew Events <ArrowRight />
           </Button>
         </div>
