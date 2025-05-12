@@ -7,7 +7,7 @@ const SectionSeven = () => {
       <h2 className="font-meshed-display text-center font-bold md:text-6xl text-3xl mb-14 w-fit mx-auto">
         Our happy customers say about us
       </h2>
-      <div className="flex gap-2 px-20">
+      <div className="flex flex-col lg:flex-row gap-2 px-10 lg:px-20">
         <div className="p-6 bg-[#1A1A1A] rotate-[-6.21deg] rounded-xl border border-[#606060] flex-1 h-[288px] flex flex-col justify-between">
           <span className="leading-6 ellipsis-multiline">
             &quot;Lorem ipsum dolor sit amet, consectetur adipiscing elit.

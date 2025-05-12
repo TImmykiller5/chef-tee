@@ -3,8 +3,8 @@ import React from "react";
 
 const Footer = () => {
   return (
-    <footer className="bg-[#1A1A1A] mt-80 pb-20 px-20">
-      <div className="w-full flex justify-between items-start">
+    <footer className="bg-[#1A1A1A] mt-80 pb-20 lg:px-20 px-5">
+      <div className="w-full flex justify-between ">
         <div className=" flex-1">
           <div className="pt-20 max-w-72">
             <Image
@@ -41,7 +41,7 @@ const Footer = () => {
             </div>
           </div>
         </div>
-        <div className="w-4/6 flex justify-center h-[500px]">
+        <div className="w-4/6 lg:flex hidden justify-center h-[500px]">
           <div className="relative -top-1/2">
             <Image
               src="/footer/tomato.jpg"
@@ -53,7 +53,7 @@ const Footer = () => {
             />
           </div>
         </div>
-        <div className="pt-20 flex-1 center ">
+        <div className="pt-20 flex-1 flex flex-col items-end  w-full ">
           <span className="text-xl font-semibold">Connect with us</span>
           <div className="flex gap-4 mt-4">
             <div className="rounded-full border border-white p-[4px] w-fit">
@@ -104,13 +104,15 @@ const Footer = () => {
         </div>
       </div>
       <div className="flex justify-center ">
-        <span className="gold-shimmer font-black text-[206px] text-center font-meshed-display">
+        <span className="gold-shimmer font-black lg:text-[206px] text-[64px] text-center font-meshed-display">
           Foodgasm
         </span>
       </div>
       <div>
         <div className="h-[1px]  bg-[#808080] my-4 mt-auto" />
-        <span className="mx-auto w-fit block">© 2025 Ife by Chef Tee. All rights reserved.</span>
+        <span className="mx-auto w-fit block">
+          © 2025 Ife by Chef Tee. All rights reserved.
+        </span>
       </div>
     </footer>
   );
